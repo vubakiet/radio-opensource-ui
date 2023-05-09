@@ -166,6 +166,7 @@ hr {
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.507);
 }
+
 .footer h2 {
     text-transform: uppercase;
     margin-left: 20px;
@@ -191,6 +192,7 @@ hr {
     text-align: center;
     width: 20%;
 }
+
 .footer_group__links ul li {
     list-style: none;
     text-align: center;
@@ -204,6 +206,26 @@ hr {
         display: block;
     }
 
+
+}
+
+@media screen and (max-width: 880px) {
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    i p {
+        font-size: 16px;
+    }
+
     .footer_group {
         width: 100%;
         display: flex;
@@ -215,11 +237,27 @@ hr {
     .footer_group__about {
         text-align: center;
     }
-    .footer_group__about p{
-      text-align: center;
+
+    .footer_group__about p {
+        text-align: center;
     }
 
-    .footer_group__links {
+    .footer_group__links{
+        width: 100%;
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .left {
+        width: 30%;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .right img{
+        width: 80%;
     }
 }
